@@ -1,6 +1,8 @@
 # Quick Access For Files
 Saves information separately to be able to read it quickly during a list of files.
 
+[![Build And Test .NET Core Projects](https://github.com/tomashalac/QuickAccessForFiles/actions/workflows/main.yml/badge.svg)](https://github.com/tomashalac/QuickAccessForFiles/actions/workflows/main.yml)
+
 ## Applications
 
 In a game you want to save the player's games and in the menu you want to show statistics of that game and a screenshot, this allows you to save that information in the same file so that you only have to load the minimum necessary information from the file. And the advantage that this information is already in the file is that if the saves are sent between players, this information would still be available. This does not happen if you save this information in a different file.
