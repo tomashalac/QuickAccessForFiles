@@ -1,5 +1,12 @@
 # Quick Access For Files
-Saves information separately to be able to read it quickly during a list of files.
+Save the metadata directly to the file, to allow compatibility with all operating systems.
+You can read the metadata of a file without having to load the whole file, this is very important when you want to list the metadata of many files.
+
+#### Why did i do this?
+When sending files between different operating systems,
+if you are not careful, the metadata is not copied,
+instead using this system the metadata will always be with the file.
+
 
 [![Build And Test .NET Core Projects](https://github.com/tomashalac/QuickAccessForFiles/actions/workflows/main.yml/badge.svg)](https://github.com/tomashalac/QuickAccessForFiles/actions/workflows/main.yml)
 
